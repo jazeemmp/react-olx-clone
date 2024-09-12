@@ -1,0 +1,30 @@
+.topFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color:rgba(0, 47, 52, 0.03);;
+    padding: 0 100px;
+    color: #002f34;
+}
+.topFooter .textContainer h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.topFooter .textContainer p{
+    font-size: 1.2rem;
+}
+.topFooter .line{
+    border-left: 2px solid #c0c2c2;
+    height: 150px;
+}
+.topFooter .links h3{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+.topFooter .download img{
+   width: 130px;
+   margin-right: 10px;
+}

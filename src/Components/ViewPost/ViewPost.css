@@ -1,0 +1,79 @@
+.viewParentDiv {
+    padding-top: 4em;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .viewParentDiv .imageShowDiv {
+    width: 500px;
+    height: 500px;
+    background: #0000;
+    border: 1px solid grey;
+  }
+  .viewParentDiv .imageShowDiv img{
+    width: 100%;
+  }
+  .viewParentDiv .rightSection {
+    padding: 16px;
+    margin-top: 3em;
+    width: 30vw;
+  }
+  
+  .viewParentDiv .rightSection .productDetails :first-child {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #002f34;
+    font-size: 34px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .viewParentDiv .rightSection .productDetails {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 6px;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails :first-child {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #002f34;
+    font-weight: 400;
+    padding: 0;
+  }
+.parent-loader{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.loader2 {
+  --d:22px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  color: #054d42;
+  box-shadow: 
+    calc(1*var(--d))      calc(0*var(--d))     0 0,
+    calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1px,
+    calc(0*var(--d))      calc(1*var(--d))     0 2px,
+    calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3px,
+    calc(-1*var(--d))     calc(0*var(--d))     0 4px,
+    calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5px,
+    calc(0*var(--d))      calc(-1*var(--d))    0 6px;
+  animation: l27 1s infinite steps(8);
+}
+@keyframes l27 {
+  100% {transform: rotate(1turn)}
+}

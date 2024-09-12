@@ -1,0 +1,66 @@
+.recommendations {
+  margin: 16px;
+}
+
+.recommendations .heading span {
+  font-size: 24px;
+  color: #002f34;
+}
+
+.recommendations .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Use gap instead of margin for consistent spacing */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+  padding: 13px;
+  width: 222px;
+  height: 270px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #939292;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .favorite {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.card .image img {
+  max-width: 100%;
+  height: auto; /* Ensures the image retains aspect ratio */
+}
+
+.card .content .rate {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card .content .kilometer {
+  font-size: medium;
+}
+
+.card .content .name {
+  font-size: small;
+}
+
+.card .date {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+}
